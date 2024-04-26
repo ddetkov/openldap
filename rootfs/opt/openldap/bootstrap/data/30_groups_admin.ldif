@@ -1,0 +1,7 @@
+dn: cn=admin_staff,ou=people,dc=eden,dc=local
+objectclass: Group
+objectclass: top
+groupType: 2147483650
+cn: admin_staff
+member: cn=Hubert J. Farnsworth,ou=people,dc=eden,dc=local
+member: cn=Hermes Conrad,ou=people,dc=eden,dc=local

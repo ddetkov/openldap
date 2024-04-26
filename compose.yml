@@ -1,0 +1,10 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro. - openldap
+# File: compose.yml
+
+services:
+
+  openldap:
+    # используйте тег изображения для извлечения непосредственно из репо
+    image: ddetkov/openldap
+    container_name: openldap

@@ -1,0 +1,10 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro. - openldap
+# File: compose.build.yml
+
+services:
+
+  openldap:
+    image: detkovpro/openldap
+    build:
+      context: .
