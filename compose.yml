@@ -6,5 +6,5 @@ services:
 
   openldap:
     # используйте тег изображения для извлечения непосредственно из репо
-    image: ddetkov/openldap
+    # image: detkovpro/openldap
     container_name: openldap

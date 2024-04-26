@@ -5,6 +5,6 @@
 services:
 
   openldap:
-    image: detkovpro/openldap
+    image: openldap
     build:
       context: .

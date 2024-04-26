@@ -13,6 +13,7 @@ services:
 
   openldap:
     <<: *logging-opts
+    image: openldap
     hostname: openldap
     environment:
       LDAP_FORCE_STARTTLS: "true"

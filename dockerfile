@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM detkovpro/ubuntu:latest
 
 # Переменные окружения конфигурации со значениями по умолчанию
 ENV DATA_DIR="/opt/openldap/bootstrap/data"

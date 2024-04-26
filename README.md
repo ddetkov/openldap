@@ -10,6 +10,14 @@ This Docker image provides an OpenLDAP Server for testing LDAP applications, i.e
 
 Parts of the image are based on the work from Nick Stenning [docker-slapd][slapd] and Bertrand Gouny [docker-openldap][openldap].
 
+```
+
+docker build . --file Dockerfile --tag detkovpro/openldap:latest
+docker push detkovpro/openldap:latest
+
+```
+
+
 ## Контроллер домена
 
 DNS - Active Directory и Kubernetes в развертываниях больших кластеров
